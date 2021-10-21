@@ -3,22 +3,24 @@ body {
   font-family: "Arial";
 }
 header {
-  background-color: hotpink;
   position: fixed;
+  height: 40px;
   width: 100%;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  float: right;
+  background-color: ivory;
+  width: 100%;
+  float: right;
 }
-ul {
-  align-items: right;
-}
+
 nav ul li {
   display: inline-block;
   margin-left: 20px;
+  font-size: 12px;
 }
 
 nav ul a {
@@ -26,7 +28,13 @@ nav ul a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   color: black;
-  align-content: right;
+  align-content: center;
+}
+nav ul button a {
+  color: orange;
+  padding: 5px;
+  border-radius: 25px;
+  border: 1px solid gray;
 }
 
 form {
