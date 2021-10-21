@@ -9,8 +9,11 @@ header {
 }
 
 nav {
-  display: inline;
+  display: flex;
   justify-content: space-between;
+  float: right;
+  background-color: ivory;
+  width: 100%;
   float: right;
 }
 
