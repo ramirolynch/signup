@@ -10,7 +10,7 @@ body {
   margin: auto;
   margin: 20 0 0 450px;
   padding: 80px;
-  background: #23463f;
+  background: gray;
   border-radius: 15px;
 }
 h2 {
@@ -22,7 +22,14 @@ label {
   color: #08ffd1;
   font-size: 17px;
 }
-#Uname {
+#Fname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Lname {
   width: 300px;
   height: 30px;
   border: none;
@@ -35,68 +42,6 @@ label {
   border: none;
   border-radius: 3px;
   padding-left: 8px;
-}
-#log {
-  width: 300px;
-  height: 30px;
-  border: none;
-  border-radius: 17px;
-  padding-left: 7px;
-  color: blue;
-}
-span {
-  color: white;
-  font-size: 17px;
-}
-a {
-  float: right;
-  background-color: grey;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background-color: grey;
-  font-family: "Arial";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-section {
-  width: 382px;
-  background: white;
-  margin-top: 200px;
-  padding-left: 20px;
-}
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-  color: #277582;
-  padding: 20px;
-}
-label {
-  color: #08ffd1;
-  font-size: 17px;
-}
-
-#email {
-  width: 300px;
-  height: 30px;
-  border: none;
-  border-radius: 3px;
-  padding-left: 8px;
-  border-bottom: 1px solid grey;
-}
-#pass {
-  width: 300px;
-  height: 30px;
-  border: none;
-  border-radius: 3px;
-  padding-left: 8px;
-  border-bottom: 1px solid grey;
 }
 #log {
   width: 300px;
