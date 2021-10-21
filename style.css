@@ -37,9 +37,6 @@ input:nth-child(4) {
    
 }
 
-a {   
-    background-color: grey;  
-}  
 
 form {
     display:flex;
@@ -53,7 +50,7 @@ section > article {
 input:nth-child(6) {
     margin-top:3em;
     margin-bottom:1em;
-    background-color:grey;
+    background-color:rgba(83, 84, 108);
     color:white;
     padding:0.5em;
     margin-left:3em;
@@ -61,7 +58,7 @@ input:nth-child(6) {
 }
 
 input:nth-child(7) {
-    background-color: blue;
+    background-color: rgba(64, 144, 203);
     margin-bottom: 1em;
     margin-left:3em;
     margin-right:3em;
@@ -70,7 +67,7 @@ input:nth-child(7) {
 }
 
 input:nth-child(8) {
-    background-color:green;
+    background-color:rgba(0,187,88);
     color:white;
     padding:0.5em;
     margin-left:3em;
@@ -96,6 +93,7 @@ a:link {
   input[type=text] {
       border:none;
       border-bottom: 1px solid grey;
+    
   }
 
   input[type=password] {
