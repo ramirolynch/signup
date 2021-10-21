@@ -90,6 +90,11 @@ a:link {
     text-decoration: none;
   }
 
+  p a {
+      color:orange;
+  }
+
+
   input[type=text] {
       border:none;
       border-bottom: 1px solid grey;
