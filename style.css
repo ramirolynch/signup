@@ -1,62 +1,94 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: grey;
-  font-family: "Arial";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-section {
-  width: 382px;
-  background: white;
-  margin-top: 200px;
-  padding-left: 20px;
-}
+body  {  
+   
+    background: url("bg.jpg") no-repeat center center fixed;
+    font-family: 'Arial'; 
+
+}  
+
+section {  
+
+        width: 25%; 
+        background: white; 
+        height:500px;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        padding:0 2em 0 2em;
+
+}  
 
 h1 {
-  text-align: center;
+    text-align:center;
+    padding-top: 1em;
 }
 
-h2 {
-  text-align: center;
-  color: #277582;
-  padding: 20px;
-}
-label {
-  color: #08ffd1;
-  font-size: 17px;
+section p {
+    text-align: center;
+    padding-bottom: 1em;
 }
 
-#email {
-  width: 300px;
-  height: 30px;
-  border: none;
-  border-radius: 3px;
-  padding-left: 8px;
-  border-bottom: 1px solid grey;
+label:nth-child(3) {
+    margin-top: 1em;
+ 
 }
-#pass {
-  width: 300px;
-  height: 30px;
-  border: none;
-  border-radius: 3px;
-  padding-left: 8px;
-  border-bottom: 1px solid grey;
+
+input:nth-child(4) {
+    margin-bottom: 1em;
+   
 }
-#log {
-  width: 300px;
-  height: 30px;
-  border: none;
-  border-radius: 17px;
-  padding-left: 7px;
-  color: blue;
+
+a {   
+    background-color: grey;  
+}  
+
+form {
+    display:flex;
+    flex-direction: column;
 }
-span {
-  color: white;
-  font-size: 17px;
+
+section > article {
+    display:flex;
 }
-a {
-  float: right;
-  background-color: grey;
+
+input:nth-child(6) {
+    margin-top:3em;
+    margin-bottom:1em;
+    background-color:grey;
+    color:white;
+    padding:0.5em;
+    margin-left:3em;
+    margin-right:3em;
 }
+
+input:nth-child(7) {
+    background-color: blue;
+    margin-bottom: 1em;
+    margin-left:3em;
+    margin-right:3em;
+    color:white;
+    padding:0.5em;
+}
+
+input:nth-child(8) {
+    background-color:green;
+    color:white;
+    padding:0.5em;
+    margin-left:3em;
+    margin-right:3em;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }

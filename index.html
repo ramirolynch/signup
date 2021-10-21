@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +11,33 @@
  
 <body>     
 
-    <section class="login">
+    <section>
 
-        <h1>Log In</h1>
+    <h1>Log In</h1>
+    <p>NEW TO HEADSPACE? <a href="signup.html">SIGN UP FOR FREE</a></p>
 
-    <form id="login" method="get" action="login.php">    
+    <form id="login" method="post" action="#">    
 
         <label>Email Address</label> 
 
-        <input type="text" name="email" id="email" placeholder="Email Address">    
+        <input type="text" name="email" placeholder="Email Address">    
            
         <label>Password</label>   
 
-        <input type="Password" name="Pass" id="pass" placeholder="Password">    
+        <input type="Password" name="Pass" placeholder="Password">   
         
-        <input type="button" name="log" id="log" value="Log In">       
-           
-        <input type="checkbox" id="check">    
+        <article>
+        <input type="checkbox"> <label for="checkbox">REMEMBER ME</label>  
+        </article>
+        
+        <input type="button" name="log" value="LOG IN">     
+        
+        <input type="button" name="log" value="LOG IN WITH FACEBOOK">  
 
-        <span>Remember me</span>
-        Forgot <a href="#">Password</a>    
+        <input type="button" name="log" value="LOG IN WITH SPOTIFY">  
+           
+            
+
     </form> 
 
 </section> 
